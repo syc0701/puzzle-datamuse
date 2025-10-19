@@ -1,0 +1,22 @@
+{
+    "author": "",
+    "dependencies": {
+        "axios": "^1.6.0",
+        "pg": "^8.11.3"
+    },
+    "description": "Process words from PostgreSQL database and fetch frequency data from Datamuse API",
+    "keywords": [
+        "postgresql",
+        "datamuse",
+        "word-frequency",
+        "dictionary"
+    ],
+    "license": "MIT",
+    "main": "datamuseProcessor.js",
+    "name": "puzzle-datamuse-processor",
+    "scripts": {
+        "process": "node datamuseProcessor.js",
+        "start": "node datamuseProcessor.js"
+    },
+    "version": "1.0.0"
+}
